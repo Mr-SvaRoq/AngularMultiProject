@@ -1,13 +1,20 @@
 
 # How to create multiApp 
 
-`ng new AngularMultiple --create-application false`
+`ng new AngularMultiple --create-application false` 
+
 `cd AngularMultiple`
+
 `ng g application ProjectA`
+
 `ng g application ProjectB`
+
 `ng g application ProjectC`
+
 ` ng generate c component/a1 --project="ProjectA"`
+
 ` ng generate c component/b1 --project="ProjectB"`
+
 ` ng generate c component/c1 --project="ProjectC"`
 
 # AngularMultiple
