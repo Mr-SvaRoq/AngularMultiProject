@@ -10,13 +10,13 @@ import { B3Component } from './component/b3/b3.component';
 @NgModule({
   declarations: [
     AppComponent,
-    B1Component,
     B2Component,
     B3Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    B1Component
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,6 +10,7 @@ export class A2Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('A2 component')
   }
 
 }
