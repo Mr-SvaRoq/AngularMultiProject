@@ -18,6 +18,19 @@
 ` ng generate c component/c1 --project="ProjectC"`
 
 
+## Angular Info
+https://angular.io/guide/standalone-components
+
+https://www.youtube.com/watch?v=x5PZwb4XurU
+
+https://www.youtube.com/watch?v=rproG1_TCek
+
+TODO: webinar
+https://www.youtube.com/watch?v=9rj8kR0q0c8
+
+https://blog.ninja-squad.com/2022/05/12/a-guide-to-standalone-components-in-angular/
+
+
 ## Development server
 
 Run `yarn start-a` for a dev server for Project A. Navigate to `http://localhost:6201/`. The application will automatically reload if you change any of the source files.
