@@ -4,6 +4,7 @@ import { A2Component } from './component/a2/a2.component';
 
 const routes: Routes = [
   {path: 'a1-standalone', loadComponent: () => import('./component/a1/a1.component').then(mod => mod.A1Component)},
+  {path: 'b1-standalone', loadComponent: () => import('../../../project-b/src/app/component/b1/b1.component').then(mod => mod.B1Component)},
   {path: 'a2-classic',  component: A2Component },
   {path: 'c1-standalone',  loadChildren: () => import('./app-routing.module').then(mod => mod.ROUTES)},
 ];
