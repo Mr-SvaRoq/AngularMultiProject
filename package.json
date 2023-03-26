@@ -7,6 +7,7 @@
     "start-a": "ng serve --project=ProjectA --port=6201",
     "start-b": "ng serve --project=ProjectB --port=6202",
     "start-c": "ng serve --project=ProjectC --port=6203",
+    "start-m": "ng serve --project=ProjectModules --port=6204",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
